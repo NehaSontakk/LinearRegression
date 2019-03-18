@@ -1,6 +1,6 @@
 # LinearRegression
 
-###### refer to Linear_reg_scratch.py 
+## refer to Linear_reg_scratch.py 
 
 Files bestfitline.py, Figure-1.png, output.txt are to find optimum equation for best fit line for a few given points.
 
