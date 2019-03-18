@@ -16,3 +16,11 @@ The procedure is extremely simple:
 5.  Now we calculate the coefficients in the line equation
 6.  Predict new values of y (I've done it for the same dataset)
 7.  Check the error between new y and old y values (using root mean squared error measure)
+
+#### Mean Calculations
+
+mean(x) = sum(x)/count(x)
+
+#### Standard Deviation
+
+std_dev(x) = { [(x - mean(x))^2] / (count(x) - 1) }
