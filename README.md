@@ -14,3 +14,5 @@ The procedure is extremely simple:
 3.  Find covariance of x and y
 4.  Then find the correlation between these (this tells us whether x and y are strongly/weakly related)
 5.  Now we calculate the coefficients in the line equation
+6.  Predict new values of y (I've done it for the same dataset)
+7.  Check the error between new y and old y values (using root mean squared error measure)
