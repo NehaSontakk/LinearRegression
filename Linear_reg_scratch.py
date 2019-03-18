@@ -104,6 +104,18 @@ evaluate_algorithm(dataset)
 
 
 
+"""
+OUTPUT
+("Mean of 'x' values:", 74.0)
+("Mean of 'y' values:", 10.0)
+('Covariance is: ', 123.0)
+("Standard deviation of 'x': ", 29.003448070875987)
+("Standard deviation of 'y': ", 4.898979485566356)
+('Pearson Correlation(greater than 0.5 is good enough): ', 0.865664999629448)
+('Coefficients b0 and b1 of regression line: ', [-54.059209972579154, 0.865664999629448])
+('Root mean squared error: ', 19.179446683258696)
+('Predicted values: ', [-24.626599985177922, 39.43260998740122, 1.3433500037055168, 22.11930999481227, 31.64162499073619, -9.910294991477308])
+"""
 
 
 
