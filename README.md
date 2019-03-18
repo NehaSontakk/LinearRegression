@@ -23,4 +23,24 @@ mean(x) = sum(x)/count(x)
 
 #### Standard Deviation
 
-std_dev(x) = { [(x - mean(x))^2] / (count(x) - 1) }
+std_dev(x) = sqrt{ [(x - mean(x))^2] / (count(x) - 1) }
+
+#### Covariance
+
+Covariance = sum( [x-x_mean] * [y-y_mean] ) / (count(x) - 1)
+
+#### Correlation
+
+Using the Pearson correlation formula.
+
+r = covariance / [std_dev(x) * std_dev(y)]
+
+#### Regression Line Equation
+
+y = b0 + b1(x)
+b1 = covariance/std_dev(x)
+b0 = mean(y) - b1*mean(x)
+
+#### Root mean square calculation
+
+Error = sqrt{ sum( [predicted_y - actual_y)^2] ) } / count(y)
